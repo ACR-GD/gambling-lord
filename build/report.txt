@@ -1,0 +1,41 @@
+Gambling Lord (賭霸) English Translation Build Report
+============================================================
+Source ROM      : Gambling Lord (Taiwan).bin
+Output ROM      : Gambling Lord (EN).bin (2,097,152 bytes)
+Output IPS      : Gambling Lord (EN).ips (144,452 bytes)
+IPS Round-Trip  : PASS
+Overlap Check   : PASS
+Free Space Left : 16,571 / 18,578 bytes
+Elapsed Time    : 1.19s
+
+Subsystem Results:
+  - title_banner   : {'allocated': 43, 'capacity': 71}
+  - edict          : {'allocated': 121, 'capacity': 137, 'tile_addr': '0x08E294'}
+  - cs_headers     : {'allocated': 18, 'capacity': 36, 'addrs': ('0x1fb76e', '0x1fb8b6')}
+  - cs_names       : {'allocated': 325, 'capacity': 334, 'tile_addr': '0x093C98'}
+  - vs_intro       : {'allocated': 173, 'capacity': 259, 'addrs': ('0x1fbbae', '0x9580a')}
+  - bracket        : {'allocated': 210, 'capacity': 284, 'addrs': ('0x97654', '0x97b8a', '0x9a9ac')}
+  - bracket_names  : {'allocated': 162, 'capacity': 266}
+  - ingame_names   : {'allocated': 159, 'capacity': 235}
+  - jade_emperor   : {'sprites_used': 59, 'sprites_cap': 64, 'tiles_allocated': 179, 'tiles_cap': 247, 'stream_bytes_used': 222}
+  - set1           : {'allocated': 666, 'capacity': 767}
+  - set2           : {'allocated': 397, 'capacity': 591}
+  - set3           : {'allocated': 690, 'capacity': 920}
+  - cheat_skill    : {'allocated': 184, 'capacity': 224}
+  - leaderboard    : {'allocated': 62, 'capacity': 84}
+  - minigames_bg   : {'triple_hit': {'allocated': 27, 'capacity': 28}, 'twin_cannon': {'allocated': 32, 'capacity': 32}, 'blackjack': {'allocated': 25, 'capacity': 27}}
+  - bank3          : {'allocated': 167, 'capacity': 241}
+  - ending         : {'allocated': 160, 'capacity': 171, 'addrs': ('0x24ccc', '0x24eb8')}
+
+Space Allocations (0x1FB76E..0x200000):
+  - cs_headers_map_reloc    : 0x1FB76E..0x1FB8B6 (328 B)
+  - cs_headers_tiles_reloc  : 0x1FB8B6..0x1FBBAE (760 B)
+  - vs_intro_map_reloc      : 0x1FBBAE..0x1FBF45 (919 B)
+
+Verification Contact Sheets:
+  - notes/verify_screens.png
+  - notes/verify_nameplates.png
+  - notes/verify_set1.png
+  - notes/verify_set2.png
+  - notes/verify_set3.png
+  - notes/verify_minigames.png
