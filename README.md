@@ -2,6 +2,15 @@
 
 Full English localization of *Gambling Lord* (賭霸) for the **Super A'Can** (Dunhuang Technology / Funtech Entertainment Corp., 1995–1996), translating all pre-rendered Traditional Chinese 4bpp tilemaps, sprite banks, menus, nameplates, yaku names, opponent taunts, mini-games, cutscenes, and credits using variable-width bitmap fonts (VWF) matched to hardware palette and sprite constraints.
 
+## Screenshots
+
+<p>
+<img src="screenshots/1.png" width="400" alt="Title screen: Free Play">
+<img src="screenshots/2.png" width="400" alt="Character select with English name plates">
+<img src="screenshots/3.png" width="400" alt="Seat selection before a match">
+<img src="screenshots/4.png" width="400" alt="Mahjong table: Draw a tile!">
+</p>
+
 ## Source & Build Artifacts
 
 - **Original ROM (unmodified):** `Gambling Lord (Taiwan).bin` (`2,097,152` bytes / `0x200000`, 16-bit byte-swapped)
